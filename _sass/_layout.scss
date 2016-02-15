@@ -22,17 +22,26 @@
 .header-wrapper{
     position: absolute;
     top: 0px;
-    left:50%;
-    margin-left:$content-width/-2;
-
+    left:0px;
     height:400px;
-    width: $content-width;
+    width: 100%;
+
 }
 #logo{
-    position: absolute;
+    position: relative;
+    display: block;
     top: 200px;
-    left:50%;
-    margin-left:-299px;
+
+    margin-left:auto;
+    margin-right:auto;
+   
+
+}
+.header-center{
+    position:relative;
+   
+    padding-left:30px;
+    padding-right:30px;
 }
 .site-title {
     font-size: 26px;
