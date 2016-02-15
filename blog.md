@@ -14,11 +14,13 @@ permalink: /devlog/
       <div class="devlog-post">
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
         <img src="{{post.image}}">
-        <h2 class="devlog-link">
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <div class="devlog-meta">
-          <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div>
+          <h2 class="devlog-link">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <div class="devlog-meta">
+            <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+          </div>
         </div>
       </div>
     {% endfor %}

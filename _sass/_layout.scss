@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    position: fixed;
+    position: relative;
     //border-top: 5px solid $grey-color-dark;
     //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -47,16 +47,16 @@
 
 
 .devlog-page{
-    padding-top:56px;
+    padding-top:10px;
 
 }
 
 .devlog-wrapper{
-    max-width:$content-width - $page-spacing-unit*2;
+    max-width:$content-width;// - $page-spacing-unit*2;
     margin-left:auto;
     margin-right:auto;
-    padding-left:$page-spacing-unit;
-    padding-right:$page-spacing-unit;
+    //padding-left:$page-spacing-unit;
+    //padding-right:$page-spacing-unit;
 
    
 }
@@ -76,6 +76,7 @@
     flex-flow:row wrap;
 
     align-content: flex-start;
+    margin:0px -$page-spacing-unit 0px -$page-spacing-unit;
 }
 
 .devlog-post{
@@ -101,8 +102,8 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    margin:2px 6px 4px 6px;
-    padding:5px 2px 4px 2px;
+    margin:16px 20px 0px 20px;
+    padding:0px 0px 8px 0px;
     font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
     font-size: 1.2em;
     font-weight:bold;
@@ -121,8 +122,9 @@
     font-size: 0.8em;
     color: 0.6*#d7dfea + 0.4*#494841;
     padding:2px 2px 2px 2px;
-    margin:2px 6px 2px 6px;
-    
+
+    //margin:2px 6px 2px 6px;
+    margin:6px 20px 6px 20px;
 }
 
 .site-title {
