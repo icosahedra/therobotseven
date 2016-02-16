@@ -20,6 +20,9 @@ permalink: /team/
             {% if teammember.twitter_username %}
             <span class="team-twitter">{% include icon-twitter.html username=teammember.twitter_username %}</span>
             {% endif %}
+            {% if teammember.website %}
+            <span class="team-html5">{% include icon-html5.html website=teammember.website %}</span>
+            {% endif %}
           </h2>
           <div class="team-meta">
             <span>{{ teammember.content }}</span>
