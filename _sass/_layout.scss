@@ -18,8 +18,37 @@
 
 }
 .header-title{
-    display:inline-block;
+    //display:inline-block;
+    //margin-left:auto;
+    //margin-right:auto;
 }
+.header-title-block{
+    display:inline-block;
+
+
+}
+.title-links{
+    text-align:left;
+    margin-left:4%;
+    text-transform:uppercase;
+    font-size:0.98em;
+}
+a.title-link{
+    color:#333;
+
+    color: #333;
+    text-decoration: none;
+
+    &:visited {
+        color: #333;
+    }
+
+    &:hover {
+        color: #222;
+        //text-decoration: underline;
+    }
+}
+
 .devlog-header img{
     margin-top:2px;
     margin-bottom:-4px;
@@ -72,7 +101,7 @@
 }
 .header-center{
     position:relative;
-    
+        text-align:center;
     padding-left:2*$spacing-unit;
     padding-right:2*$spacing-unit;
 }
@@ -257,39 +286,39 @@
 }
 
 .post-title {
-    font-size: 42px;
+   // font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+   // @include media-query($on-laptop) {
         font-size: 36px;
-    }
+   // }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+      //  font-size: 32px;
 
-        @include media-query($on-laptop) {
+      //  @include media-query($on-laptop) {
             font-size: 28px;
-        }
+      //  }
     }
 
     h3 {
-        font-size: 26px;
+       // font-size: 26px;
 
-        @include media-query($on-laptop) {
+        //@include media-query($on-laptop) {
             font-size: 22px;
-        }
+       // }
     }
 
     h4 {
-        font-size: 20px;
+        //font-size: 20px;
 
-        @include media-query($on-laptop) {
+       // @include media-query($on-laptop) {
             font-size: 18px;
-        }
+       // }
     }
 }
