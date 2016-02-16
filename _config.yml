@@ -15,8 +15,13 @@ url: "http://therobotseven.com" # the base hostname & protocol for your site
 twitter_username: birdimus
 github_username:  birdimus
 devlog_url: "/devlog"
-
+team_url: "/team"
 # Build settings
 markdown: kramdown
 
-permalink:     none
+permalink:   /devlog/:title/
+# none
+
+#collections
+collections:
+- teammembers

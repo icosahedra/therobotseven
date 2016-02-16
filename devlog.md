@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: devlog
 title: TR7 Devlog
 permalink: /devlog/
 ---
