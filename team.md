@@ -16,7 +16,7 @@ permalink: /team/
         <img src="{{teammember.image}}" alt="{{ teammember.name }}">
         <div>
           <h2 class="team-link">
-            {{ teammember.name }}
+            <span>{{ teammember.name }}</span>
             {% if teammember.twitter_username %}
             <span class="team-twitter">{% include icon-twitter.html username=teammember.twitter_username %}</span>
             {% endif %}
@@ -25,7 +25,7 @@ permalink: /team/
             {% endif %}
           </h2>
           <div class="team-meta">
-            <span>{{ teammember.content }}</span>
+            {{ teammember.content }}
           </div>
 
         </div>
