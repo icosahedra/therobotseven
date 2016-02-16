@@ -5,4 +5,4 @@ image: "/img/test2.jpg"
 twitter_username: "birdimus"
 website: "http://briankehrer.com/"
 ---
-Brian is a game designer and developer. He was a co-founder of Muse Games, and Game Director for the multiplayer airship combat game, Guns of Icarus Online.
+Brian is a game designer, developer, and graphics programmer. He's worked on numerous projects including Guns of Icarus Online (director), Nightmare: Malaria (lead dev), and Cardboard Design Lab (lead dev).

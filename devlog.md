@@ -13,7 +13,9 @@ permalink: /devlog/
     {% for post in site.posts %}
       <div class="devlog-post">
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        {% if post.image %}
         <img src="{{post.image}}" alt="{{post.title}}">
+        {% endif %}
         <div>
           <h2 class="devlog-link">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

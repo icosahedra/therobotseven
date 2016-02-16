@@ -24,6 +24,7 @@ permalink: /team/
             <span class="team-html5">{% include icon-html5.html website=teammember.website %}</span>
             {% endif %}
           </h2>
+          
           <div class="team-meta">
             {{ teammember.content }}
           </div>
