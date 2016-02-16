@@ -17,3 +17,5 @@ github_username:  birdimus
 
 # Build settings
 markdown: kramdown
+
+permalink:     none

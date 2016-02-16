@@ -1,7 +1,8 @@
 /**
  * Site header
  */
-.site-header {
+
+.devlog-header{
     position: relative;
     //border-top: 5px solid $grey-color-dark;
     //border-bottom: 1px solid $grey-color-light;
@@ -10,17 +11,30 @@
     opacity:0.99;
     width:100%;
 }
+.header-wrapper{
+    max-width:$content-width;// - $page-spacing-unit*2;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.devlog-header img{
+    margin-top:2px;
+    margin-bottom:-4px;
+    padding-left:8px;
+    height:58px;
+}
 #main-header {
     background-image: $header-image;// no-repeat center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    position: relative;
     ///height of image / width of image
     padding-top: 137.65%;
     //height:1689px;
 }
-.header-wrapper{
+.logo-wrapper{
     position: absolute;
     top: 13%;
     left:0px;
@@ -41,14 +55,14 @@
 .header-center{
     position:relative;
     
-    padding-left:$spacing-unit;
-    padding-right:$spacing-unit;
+    padding-left:2*$spacing-unit;
+    padding-right:2*$spacing-unit;
 }
 
 
 .devlog-page{
     padding-top:10px;
-
+    background-color:$background-color;
 }
 
 .devlog-wrapper{
@@ -77,6 +91,9 @@
 
     align-content: flex-start;
     margin:0px -$page-spacing-unit 0px -$page-spacing-unit;
+
+    
+    padding-bottom: 40px;
 }
 
 .devlog-post{
@@ -211,12 +228,22 @@
 
 
 
+
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    //border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    
+    background-color: $background-color-dark;
+}
+
+.footer-wrapper{
+    max-width: $content-width;
+    min-height:100px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .footer-heading {
@@ -286,10 +313,17 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-color: $background-color;
 }
-
+.page-wrapper{
+    max-width: $content-width;
+    min-height:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
 .page-heading {
     font-size: 20px;
+
 }
 
 .post-list {

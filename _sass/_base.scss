@@ -16,7 +16,8 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+
+    background-color: $background-color-dark;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -156,20 +157,20 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
+    //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    //margin-right: auto;
+    //margin-left: auto;
+    //padding-right: $spacing-unit;
+    //padding-left: $spacing-unit;
+    //@extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+    //@include media-query($on-laptop) {
+     //   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+       /// max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+       // padding-right: $spacing-unit / 2;
+       // padding-left: $spacing-unit / 2;
+    //}
 }
 
 
