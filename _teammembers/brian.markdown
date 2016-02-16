@@ -1,7 +1,7 @@
 ---
 name:  "Brian Kehrer"
 role: "Design+Engineer"
-image: "/img/test2.jpg"
+image: "/img/team/brian.jpg"
 twitter_username: "birdimus"
 website: "http://briankehrer.com/"
 ---
