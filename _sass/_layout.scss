@@ -11,6 +11,7 @@
     padding-top: 137.65%;
     //height:1689px;
 }
+
 .logo-wrapper{
     position: absolute;
     top: 13%;
@@ -22,7 +23,6 @@
 #logo{
     position: relative;
     display: block;
-    
 
     margin-left:auto;
     margin-right:auto;
@@ -31,7 +31,7 @@
 }
 .header-center{
     position:relative;
-        text-align:center;
+    text-align:center;
     padding-left:2*$spacing-unit;
     padding-right:2*$spacing-unit;
 }
@@ -142,9 +142,9 @@ a.title-link{
     -moz-column-width: 300px;
     column-width:300px;
     -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  margin-before:0;
-  margin-after:0;
+    -webkit-margin-after: 0;
+    margin-before:0;
+    margin-after:0;
     -webkit-column-gap: $page-spacing-unit; /* Chrome, Safari, Opera */
     -moz-column-gap: $page-spacing-unit; /* Firefox */
     column-gap: $page-spacing-unit;
@@ -393,6 +393,31 @@ a.title-link{
 /**
  * Posts
  */
+.post-navigation{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-alight:center;
+}
+.post-navigation a{
+    display:inline-block;
+}
+.post .arrow-left{
+
+    svg{
+        width:16px;
+        height:12px;
+        fill: currentColor;
+    }
+}
+.post .arrow-right{
+    svg{
+        width:16px;
+        height:12px;
+        fill: currentColor;
+    }
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }

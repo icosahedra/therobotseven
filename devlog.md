@@ -23,6 +23,7 @@ permalink: /devlog/
           <div class="devlog-meta">
             <span>{{ post.date | date: "%b %-d, %Y" }}</span>
           </div>
+          
         </div>
       </div>
     {% endfor %}
