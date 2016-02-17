@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "AI Baddies"
+author: Brian
+image: "/img/content/2015/08/baddies.gif"
+categories: 
+---
+Some simple AI interacting with the grid physics.
