@@ -14,7 +14,9 @@ permalink: /devlog/
       <div class="devlog-post">
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
         {% if post.image %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
         <img src="{{post.image}}" alt="{{post.title}}">
+        </a>
         {% endif %}
         <div>
           <h2 class="devlog-link">
@@ -22,6 +24,7 @@ permalink: /devlog/
           </h2>
           <div class="devlog-meta">
             <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if post.author %}<span> • {{ post.author }}</span>{% endif %}
           </div>
           
         </div>
