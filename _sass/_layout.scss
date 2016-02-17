@@ -488,7 +488,13 @@ a.title-link{
         font-size: 36px;
    // }
 }
-
+.post-image{
+    text-align:center;
+    img{
+       // width:100%;
+    }
+    
+}
 .post-content {
     margin-bottom: $spacing-unit;
 
