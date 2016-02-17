@@ -352,10 +352,11 @@ a.title-link{
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0 0 0 0;
     background-color: $background-color;
 }
 .page-wrapper{
+    padding: $spacing-unit 0;
     max-width: $content-width;
     min-height:100px;
     margin-left:auto;
@@ -393,27 +394,55 @@ a.title-link{
 /**
  * Posts
  */
+
+ .post-nav-wrapper{
+    //text-align:center;
+    background-color:0.3*#d7dfea;
+    height:24px;
+ }
 .post-navigation{
+    position:relative;
+    padding-top:3px;
+    max-width:600px;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    text-alight:center;
+
+    text-transform:uppercase;
+    font-size:0.85em;
 }
-.post-navigation a{
-    display:inline-block;
+
+.post-next{
+    position:absolute;
+    width:50%;
+    text-align:left;
+    a{
+        margin-left:$spacing-unit;
+    }
 }
-.post .arrow-left{
+
+.post-previous{
+    position:absolute;
+    width:50%;
+    text-align:right;
+    left:50%;
+    a{
+        margin-right:$spacing-unit;
+    }
+
+}
+.page-content .arrow-left{
 
     svg{
         width:16px;
-        height:12px;
+        height:10px;
         fill: currentColor;
     }
 }
-.post .arrow-right{
+.page-content .arrow-right{
     svg{
         width:16px;
-        height:12px;
+        height:10px;
         fill: currentColor;
     }
 }

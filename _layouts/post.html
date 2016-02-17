@@ -11,13 +11,7 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-  <div class="post-navigation">
-  {% if page.next %}
-  	<a href="{{page.next.url}}">{% include icon-arrow-left.html  %}{{page.next.title}}</a>
-  {% endif %}
-  {% if page.previous %}
-  	<a href="{{page.previous.url}}"> {{page.previous.title}} {% include icon-arrow-right.html  %}</a>
-  {% endif %}
-  </div>
+
+  
 
 </article>

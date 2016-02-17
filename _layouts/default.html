@@ -8,11 +8,13 @@
     {% include header.html %}
 
     <div class="page-content">
+      {% include next-prev.html %}
       <div class="page-wrapper">
         <div class="page-interior">
         {{ content }}
         </div>
       </div>
+      {% include next-prev.html %}
     </div>
 
     {% include footer.html %}
