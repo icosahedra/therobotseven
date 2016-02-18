@@ -1,7 +1,7 @@
 ---
 name:  "Naomi Chen"
 role: "Design+Art"
-image: "/img/team/naomi.jpg"
+image: "/img/team/naomi.png"
 twitter_username: "feathervillain"
 website: "http://naomichenart.com/"
 ---
