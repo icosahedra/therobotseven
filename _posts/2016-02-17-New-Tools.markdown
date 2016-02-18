@@ -7,9 +7,9 @@ categories:
 
 images:
 
-- url: /img/content/2016/02/Terrain-Physics-Mesh.jpg
-alt: A physics/pathfinding mesh
-title: Navmesh Generation
+    - url: /img/content/2016/02/Terrain-Physics-Mesh.jpg
+    alt: A physics/pathfinding mesh
+    title: Navmesh Generation
 
 ---
 The 2D level editor has been enthusiastically deprecated, now that we have a full 3D interface
