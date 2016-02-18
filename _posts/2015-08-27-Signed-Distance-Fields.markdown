@@ -5,4 +5,6 @@ author: Brian
 image: "/img/content/2015/08/sdf.png"
 categories: 
 ---
-Some simple AI interacting with the grid physics.
+
+Implemented some signed distance fields and a custom text rendering engine in Unity, based on [this paper by Chris Green at Valve](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf "Signed distance fields valve paper").
+
