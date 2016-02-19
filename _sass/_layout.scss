@@ -157,7 +157,7 @@ a.title-link{
     //flex-flow:row wrap;
 
     //align-content: flex-start;
-    margin:$page-spacing-unit -$page-spacing-unit 0px -$page-spacing-unit;
+    margin:$page-spacing-unit 0 0 0 ;
 
     
     padding-bottom: 40px;
@@ -244,7 +244,7 @@ a.title-link{
     flex-flow:row wrap;
 
     align-content: flex-start;
-    margin:0px -$page-spacing-unit 0px -$page-spacing-unit;
+    margin:0px 0 0 0;
     justify-content:center;
     
     padding-bottom: 40px;
