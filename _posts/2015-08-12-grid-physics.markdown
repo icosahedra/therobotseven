@@ -3,6 +3,9 @@ layout: post
 title:  "Grid Physics"
 author: Brian
 image: /img/content/2015/08/grid_physics.png
+image-width: 495
+image-height: 331
+description: Custom grid physics in Unity
 categories: 
 
 images:

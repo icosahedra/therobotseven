@@ -3,7 +3,10 @@ layout: post
 title:  "Volumetrics"
 author: Brian
 image: "/img/content/2015/04/volumetrics.png"
+image-width: 1046
+image-height: 716
 categories: 
+description: A volumetric path tracing test in Unity
 ---
 This is a volumetic rendering test using path-tracing, and simplified mie scattering.  It runs on an Intel HD 5000 integrated graphics card, shader model 3.0 (DX 9) at about 30fps.  After getting this working, I've decided to move entirely to DX11 and use volumetric textures instead.  While this path tracing method is neat, and the results are high quality, it's simply too slow.
 

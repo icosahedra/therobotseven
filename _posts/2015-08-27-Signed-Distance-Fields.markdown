@@ -3,6 +3,9 @@ layout: post
 title:  "Signed Distance Fields"
 author: Brian
 image: "/img/content/2015/08/sdf.png"
+image-width: 732
+image-height: 400
+description: Signed Distance Fields are awesome
 categories: 
 ---
 

@@ -3,6 +3,9 @@ layout: post
 title:  "New Tools"
 author: Naomi
 image: "/img/content/2016/02/AI-Pathing.gif"
+image-width: 512
+image-height: 512
+description: A new level editor and pathfinding
 categories: 
 
 images:

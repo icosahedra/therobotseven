@@ -8,7 +8,7 @@
 # Site settings
 title: The Robot Seven
 email:
-description: > # this means to ignore newlines until "baseurl:"
+description: An indie co-op RPG coming to PC and Console> # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://therobotseven.com" # the base hostname & protocol for your site
