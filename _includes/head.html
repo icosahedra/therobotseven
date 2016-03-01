@@ -29,7 +29,7 @@
 {% endif %}
 
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
-<meta property="og:url" content="http://therobotseven.com{% if page.url %}{{ page.url}} {% endif %}" >
+<meta property="og:url" content="http://therobotseven.com{% if page.url %}{{ page.url}}{% endif %}" >
 <meta property="og:type" content="website" />
 {% include google-analytics.html  %}
 </head>
