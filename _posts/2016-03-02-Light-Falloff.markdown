@@ -101,3 +101,10 @@ I didn't quite get to attenuation - I'll leave that for next time.  One more ima
 {% assign image = page.images[3] %} 
 {% include image.html image=image %}
 
+Helpful Links
+
+ * [Tom Dalling Modern OpenGL](http://www.tomdalling.com/blog/modern-opengl/08-even-more-lighting-directional-lights-spotlights-multiple-lights/)
+ * [I'm Doing It Wrong - Light Attenuation](https://imdoingitwrong.wordpress.com/2011/01/31/light-attenuation/)
+ * [The CG Tutorial](http://http.developer.nvidia.com/CgTutorial/cg_tutorial_chapter05.html)
+
+
