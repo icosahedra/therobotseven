@@ -5,7 +5,7 @@ author: Brian
 image: "/img/content/2016/03/spotlight.png"
 image-width: 1406
 image-height: 747
-description: Some inverse square law
+description: Inverse Square Law for fun and profit
 categories: 
 
 images:
