@@ -395,6 +395,11 @@ a.title-link{
 /**
  * Posts
  */
+
+.post-content a{
+    color:$article-link-color;
+}
+
 .post-nav-wrapper{
     background-color:0.3*#d7dfea;
     height:24px;
