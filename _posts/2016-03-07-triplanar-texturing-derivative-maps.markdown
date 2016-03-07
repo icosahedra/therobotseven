@@ -64,10 +64,12 @@ Derivative maps.  I might never create a tangent space normal map again.  Why?
  Want to know more?
 
  Morton Mikkelsen has a paper, which is not exactly a light read - and a blog which helps a bit.
+
  * [Bump Mapping Unparametrized Surfaces on the GPU](https://dl.dropboxusercontent.com/u/55891920/papers/mm_sfgrad_bump.pdf)
  * [Morten Mikkelsen Blog](http://mmikkelsen3d.blogspot.com/2011/07/derivative-maps.html)
 
 It's great work - it's just also a bit, er, academic, which is to say, heavy on mathematical jargon.  Rory Driscoll's two pages on derivative maps were extremely helpful for implementation.
+
  * [Rory Driscoll Derivative Maps](http://www.rorydriscoll.com/2012/01/11/derivative-maps/)
  * [Rory Driscoll Derivative Maps vs Normal Maps](http://www.rorydriscoll.com/2012/01/15/derivative-maps-vs-normal-maps/)
 
