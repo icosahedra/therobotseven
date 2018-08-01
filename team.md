@@ -13,7 +13,7 @@ permalink: /team/
     {% for teammember in site.teammembers %}
       <div class="team-post">
         <!-- <span class="post-meta">{{ teammember.date | date: "%b %-d, %Y" }}</span> -->
-        <img src="{{teammember.image}}" alt="{{ teammember.name }}">
+        <!-- <img src="{{teammember.image}}" alt="{{ teammember.name }}"> -->
         <div>
           <h2 class="team-link">
             <span>{{ teammember.name }}</span>
